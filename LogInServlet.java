@@ -37,14 +37,14 @@ public class LogInServlet extends HttpServlet {
             Cookie cookies[] = request.getCookies();
             if (cookies != null) {
                 for (Cookie ck : cookies) {
-                    if (ck.getName().equals("Username")) {
+                    if (ck.getName().equals("taquocsex")) {
                         CookieUsername = ck.getValue();
                         break;
                     }
 
                 }
                 for (Cookie ck : cookies) {
-                    if (ck.getName().equals("Password")) {
+                    if (ck.getName().equals("quocsex123")) {
                         CookiePassword = ck.getValue();
                         break;
                     }
